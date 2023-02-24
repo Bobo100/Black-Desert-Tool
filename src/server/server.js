@@ -17,6 +17,10 @@ const CREDENTIALS = JSON.parse(
 // 定義路由
 app.get("/data", async (req, res) => {
   try {
+    await doc.useServiceAccountAuth({
+      client_email: CREDENTIALS.client_email,
+      private_key: CREDENTIALS.private_key,
+    });
     await doc.loadInfo();
     const sheet = doc.sheetsByIndex[0];
     const rows = await sheet.getRows();
