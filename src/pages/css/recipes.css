@@ -1,0 +1,17 @@
+.recipe_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-flow: dense;
+}
+
+.recipe {
+  border: 1px solid white;
+}
+
+.recipe:nth-child(odd) {
+  grid-column-start: 1;
+}
+
+.recipe:nth-child(even) {
+  grid-column-start: 2;
+}/*# sourceMappingURL=recipes.css.map */

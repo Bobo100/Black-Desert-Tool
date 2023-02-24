@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import uuid from 'react-uuid';
+import './css/ingredientTree.css';
+
 
 interface TreeNodeProps {
     label: string;
@@ -13,7 +16,7 @@ const TreeNode = ({ label, children }: TreeNodeProps) => {
     };
 
     return (
-        <li>
+        <>
             <div onClick={handleClick}>
                 <span>{isOpen ? '🔽' : '▶️'}</span>
                 <span>{label}</span>
@@ -21,44 +24,21 @@ const TreeNode = ({ label, children }: TreeNodeProps) => {
             {isOpen && children && (
                 <ul>
                     {children.map((child) => (
-                        <li key={child.label}>
+                        <li key={uuid()}>
                             <TreeNode {...child} />
                         </li>
                     ))}
                 </ul>
             )}
-        </li>
+        </>
     );
 };
 
-const IngredientTree = (treeData: TreeNodeProps) => {
-    // const treeData: TreeNodeProps = {
-    //     label: '熱狗麵包',
-    //     children: [
-    //         {
-    //             label: '熱狗',
-    //         },
-    //         {
-    //             label: '麵包',
-    //         },
-    //         {
-    //             label: '番茄醬',
-    //             children: [
-    //                 {
-    //                     label: '番茄',
-    //                 },
-    //                 {
-    //                     label: '奶油',
-    //                 },
-    //             ],
-    //         },
-    //     ],
-    // };
-
+const IngredientTree = ({ treeData }: { treeData: TreeNodeProps }) => {
     return (
-        <ul>
+        <div>
             <TreeNode {...treeData} />
-        </ul>
+        </div>
     );
 };
 

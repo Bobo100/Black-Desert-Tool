@@ -31,7 +31,7 @@ const TableExcel: React.FC = () => {
         };
         reader.readAsDataURL(file);
     };
-    console.log(tableData)
+    // console.log(tableData)
 
 
     return (

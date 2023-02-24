@@ -1,0 +1,99 @@
+[
+    {
+        "name": "熱狗麵包",
+        "treeData": {
+            "label": "熱狗麵包",
+            "children": [
+                {
+                    "label": "熱狗"
+                },
+                {
+                    "label": "麵包"
+                },
+                {
+                    "label": "番茄醬",
+                    "children": [
+                        {
+                            "label": "番茄"
+                        },
+                        {
+                            "label": "奶油"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "番茄炒蛋",
+        "treeData": {
+            "label": "番茄炒蛋",
+            "children": [
+                {
+                    "label": "番茄"
+                },
+                {
+                    "label": "雞蛋"
+                }
+            ]
+        }
+    },
+    {
+        "name": "熱狗麵包",
+        "treeData": {
+            "label": "熱狗麵包",
+            "children": [
+                {
+                    "label": "熱狗"
+                },
+                {
+                    "label": "麵包"
+                },
+                {
+                    "label": "番茄醬",
+                    "children": [
+                        {
+                            "label": "番茄"
+                        },
+                        {
+                            "label": "奶油"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "熱狗麵包",
+        "treeData": {
+            "label": "熱狗麵包",
+            "children": [
+                {
+                    "label": "熱狗"
+                },
+                {
+                    "label": "麵包"
+                },
+                {
+                    "label": "番茄醬",
+                    "children": [
+                        {
+                            "label": "番茄",
+                            "children": [
+                                {
+                                    "label": "番茄"
+                                },
+                                {
+                                    "label": "奶油"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "奶油"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
