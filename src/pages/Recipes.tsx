@@ -1,11 +1,21 @@
 
 import React from 'react';
-import recipes from './../json/recipes.json';
 import IngredientTree from './component/IngredientTree';
 import uuid from 'react-uuid';
 import "./css/recipes.css"
 
-export const Recipes = () => {
+import { FC } from 'react';
+
+type Recipe = {
+    name: string;
+    treeData: any;
+}
+
+type RecipesProps = {
+    recipes: Recipe[];
+}
+
+export const Recipes: FC<RecipesProps> = ({ recipes }) => {
     return (
         <div>
             <div className='recipe_container'>

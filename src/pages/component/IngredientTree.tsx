@@ -9,7 +9,7 @@ interface TreeNodeProps {
 }
 
 const TreeNode = ({ label, children }: TreeNodeProps) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const handleClick = () => {
         setIsOpen(!isOpen);
@@ -19,6 +19,8 @@ const TreeNode = ({ label, children }: TreeNodeProps) => {
         <>
             <div onClick={handleClick}>
                 <span>{isOpen ? '🔽' : '▶️'}</span>
+                {/* {children && <span>{isOpen ? '🔽' : '▶️'}</span>} */}
+                {/* {!children && <span>🔹</span>} */}
                 <span>{label}</span>
             </div>
             {isOpen && children && (

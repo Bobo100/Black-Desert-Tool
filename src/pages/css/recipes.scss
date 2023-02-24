@@ -10,12 +10,12 @@
     border: 1px solid white;
 }
 
-.recipe:nth-child(odd) {
-    grid-column-start: 1;
-    // grid-row-end: span 2;
-}
+// .recipe:nth-child(odd) {
+//     // grid-column-start: 1;
+//     // grid-row-end: span 2;
+// }
 
-.recipe:nth-child(even) {
-    grid-column-start: 2;
-    // grid-row-end: span 2;
-}
+// .recipe:nth-child(even) {
+//     // grid-column-start: 2;
+//     // grid-row-end: span 2;
+// }
