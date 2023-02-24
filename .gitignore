@@ -25,3 +25,6 @@ yarn-error.log*
 
 /src/lib/*.json
 /src/pages/component/*.json
+/src/server/lib/black-desert-378517-94f7666d54d8.json
+/src/server/node_modules
+/lib/black-desert-378517-94f7666d54d8.json
