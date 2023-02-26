@@ -1,320 +1,588 @@
 [
     {
-        "name": "果汁",
+        "name": "炸雞",
         "treeData": {
-            "label": "果汁",
+            "label": "炸雞",
             "children": [
                 {
-                    "label": ""
+                    "label": "雞肉 7個"
                 },
                 {
-                    "label": ""
+                    "label": "穀物粉 4個"
                 },
                 {
-                    "label": ""
+                    "label": "雞蛋 2個"
                 },
                 {
-                    "label": ""
+                    "label": "胡椒 3個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "魚肉沙拉",
         "treeData": {
-            "label": "果汁",
+            "label": "魚肉沙拉",
             "children": [
                 {
-                    "label": ""
+                    "label": "鮮魚 1個(魚乾 1個)"
                 },
                 {
-                    "label": ""
+                    "label": "洋蔥 3個"
                 },
                 {
-                    "label": ""
+                    "label": "起司 2個(曬乾)",
+                    "children": [
+                        {
+                            "label": "牛奶 1個"
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "醬料 2個",
+                    "children": [
+                        {
+                            "label": "雞蛋 1個"
+                        },
+                        {
+                            "label": "鹽 2個"
+                        },
+                        {
+                            "label": "橄欖油 1個"
+                        },
+                        {
+                            "label": "料理用飲用水 1個"
+                        }
+                    ]
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "水果派",
         "treeData": {
-            "label": "果汁",
+            "label": "水果派",
             "children": [
                 {
-                    "label": ""
+                    "label": "麵團 6個(混合)",
+                    "children": [
+                        {
+                            "label": "穀物粉"
+                        },
+                        {
+                            "label": "料理用飲用水"
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "水果 6個"
                 },
                 {
-                    "label": ""
+                    "label": "鮮奶油 3個(混和)",
+                    "children": [
+                        {
+                            "label": "牛奶 1個"
+                        },
+                        {
+                            "label": "砂糖 1個"
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "砂糖 4個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "肉餡餅",
         "treeData": {
-            "label": "果汁",
+            "label": "肉餡餅",
             "children": [
                 {
-                    "label": ""
+                    "label": "紅肉 4個"
                 },
                 {
-                    "label": ""
+                    "label": "麵團 6個(混合)",
+                    "children": [
+                        {
+                            "label": "穀物粉"
+                        },
+                        {
+                            "label": "料理用飲用水"
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "橄欖油 2個"
                 },
                 {
-                    "label": ""
+                    "label": "砂糖 2個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "炒海鮮",
         "treeData": {
-            "label": "果汁",
+            "label": "炒海鮮",
             "children": [
                 {
-                    "label": ""
+                    "label": "海鮮 1個 "
                 },
                 {
-                    "label": ""
+                    "label": "辣椒 2個"
                 },
                 {
-                    "label": ""
+                    "label": "蔬菜 4個"
                 },
                 {
-                    "label": ""
+                    "label": "白醬 2個",
+                    "children": [
+                        {
+                            "label": "基本醬料 2個"
+                        },
+                        {
+                            "label": "水果 1個"
+                        },
+                        {
+                            "label": "牛奶 1個"
+                        },
+                        {
+                            "label": "料理用紅酒 2個"
+                        }
+                    ]
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "炒雞肉",
         "treeData": {
-            "label": "果汁",
+            "label": "炒雞肉",
             "children": [
                 {
-                    "label": ""
+                    "label": "雞肉 5個"
                 },
                 {
-                    "label": ""
+                    "label": "穀物 5個"
                 },
                 {
-                    "label": ""
+                    "label": "洋蔥 3個"
                 },
                 {
-                    "label": ""
+                    "label": "橄欖油 2個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "雞胸肉沙拉",
         "treeData": {
-            "label": "果汁",
+            "label": "雞胸肉沙拉",
             "children": [
                 {
-                    "label": ""
+                    "label": "雞肉 5個"
                 },
                 {
-                    "label": ""
+                    "label": "水果 5個"
                 },
                 {
-                    "label": ""
+                    "label": "蔬菜 5個"
                 },
                 {
-                    "label": ""
+                    "label": "醋 1個",
+                    "children": [
+                        {
+                            "label": "穀物 1個"
+                        },
+                        {
+                            "label": "水果 1個"
+                        },
+                        {
+                            "label": "發酵劑 1個"
+                        },
+                        {
+                            "label": "砂糖 1個"
+                        }
+                    ]
+                },
+                {
+                    "label": "料理用紅酒 2個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "明蝦沙拉",
         "treeData": {
-            "label": "果汁",
+            "label": "明蝦沙拉",
             "children": [
                 {
-                    "label": ""
+                    "label": "蝦子 2個"
                 },
                 {
-                    "label": ""
+                    "label": "蔬菜水果沙拉 2個",
+                    "children": [
+                        {
+                            "label": "水果 4個"
+                        },
+                        {
+                            "label": "蔬菜 4個"
+                        },
+                        {
+                            "label": "料理用紅酒 2個"
+                        },
+                        {
+                            "label": "醋 1個",
+                            "children": [
+                                {
+                                    "label": "穀物 1個"
+                                },
+                                {
+                                    "label": "水果 1個"
+                                },
+                                {
+                                    "label": "發酵劑 1個"
+                                },
+                                {
+                                    "label": "砂糖 1個"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "橄欖油 3個"
                 },
                 {
-                    "label": ""
+                    "label": "鹽 2個"
+                },
+                {
+                    "label": "雞蛋 3個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "清蒸明蝦",
         "treeData": {
-            "label": "果汁",
+            "label": "清蒸明蝦",
             "children": [
                 {
-                    "label": ""
+                    "label": "蝦子 4個"
                 },
                 {
-                    "label": ""
+                    "label": "辣椒 2個"
                 },
                 {
-                    "label": ""
+                    "label": "蔬菜 3個"
                 },
                 {
-                    "label": ""
+                    "label": "料理用紅酒 3個"
+                },
+                {
+                    "label": "料理用飲用水 4個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "蘆薈優格",
         "treeData": {
-            "label": "果汁",
+            "label": "蘆薈優格",
             "children": [
                 {
-                    "label": ""
+                    "label": "蘆薈 5個"
                 },
                 {
-                    "label": ""
+                    "label": "牛奶 2個"
                 },
                 {
-                    "label": ""
+                    "label": "砂糖 3個"
                 },
                 {
-                    "label": ""
+                    "label": "發酵劑 3個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "醃製蔬菜",
         "treeData": {
-            "label": "果汁",
+            "label": "醃製蔬菜",
             "children": [
                 {
-                    "label": ""
+                    "label": "蔬菜 8個"
                 },
                 {
-                    "label": ""
+                    "label": "醋 4個"
                 },
                 {
-                    "label": ""
+                    "label": "發酵劑 2個"
                 },
                 {
-                    "label": ""
+                    "label": "砂糖 2個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "燉肉",
         "treeData": {
-            "label": "果汁",
+            "label": "燉肉",
             "children": [
                 {
-                    "label": ""
+                    "label": "紅肉 5個"
                 },
                 {
-                    "label": ""
+                    "label": "穀物粉 2個"
                 },
                 {
-                    "label": ""
+                    "label": "料理用紅酒 2個"
                 },
                 {
-                    "label": ""
+                    "label": "料理用飲用水 3個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "鬆軟的麵包",
         "treeData": {
-            "label": "果汁",
+            "label": "鬆軟的麵包",
             "children": [
                 {
-                    "label": ""
+                    "label": "麵團 6個(混合)",
+                    "children": [
+                        {
+                            "label": "穀物粉"
+                        },
+                        {
+                            "label": "料理用飲用水"
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "雞蛋 2個"
                 },
                 {
-                    "label": ""
+                    "label": "發酵劑 2個"
                 },
                 {
-                    "label": ""
+                    "label": "牛奶 3個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "水果布丁",
         "treeData": {
-            "label": "果汁",
+            "label": "水果布丁",
             "children": [
                 {
-                    "label": ""
+                    "label": "水果 5個"
                 },
                 {
-                    "label": ""
+                    "label": "牛奶 3個"
                 },
                 {
-                    "label": ""
+                    "label": "砂糖 2個"
                 },
                 {
-                    "label": ""
+                    "label": "鮮奶油 1個(混和)",
+                    "children": [
+                        {
+                            "label": "牛奶 1個"
+                        },
+                        {
+                            "label": "砂糖 1個"
+                        }
+                    ]
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "普里卡燉蛇肉",
         "treeData": {
-            "label": "果汁",
+            "label": "普里卡燉蛇肉",
             "children": [
                 {
-                    "label": ""
+                    "label": "普里卡 6個"
                 },
                 {
-                    "label": ""
+                    "label": "蛇肉 3個"
                 },
                 {
-                    "label": ""
+                    "label": "料理用飲用水 5個"
                 },
                 {
-                    "label": ""
+                    "label": "八角 2個"
                 }
             ]
         }
     },
     {
-        "name": "果汁",
+        "name": "沙漠餃子",
         "treeData": {
-            "label": "果汁",
+            "label": "沙漠餃子",
             "children": [
                 {
-                    "label": ""
+                    "label": "蜥蜴肉 6個"
                 },
                 {
-                    "label": ""
+                    "label": "麵團 6個(混合)",
+                    "children": [
+                        {
+                            "label": "穀物粉"
+                        },
+                        {
+                            "label": "料理用飲用水"
+                        }
+                    ]
                 },
                 {
-                    "label": ""
+                    "label": "肉桂 1個"
                 },
                 {
-                    "label": ""
+                    "label": "橄欖油 2個"
+                }
+            ]
+        }
+    },
+    {
+        "name": "庫斯庫斯",
+        "treeData": {
+            "label": "庫斯庫斯",
+            "children": [
+                {
+                    "label": "普里卡燉蛇肉 1個"
+                },
+                {
+                    "label": "苔麩粉麵團 6個"
+                },
+                {
+                    "label": "肉豆蔻 3個"
+                },
+                {
+                    "label": "蔬菜 4個"
+                }
+            ]
+        }
+    },
+    {
+        "name": "土撥鼠燒烤",
+        "treeData": {
+            "label": "土撥鼠燒烤",
+            "children": [
+                {
+                    "label": "土撥鼠肉 5個"
+                },
+                {
+                    "label": "辣椒 3個"
+                },
+                {
+                    "label": "鹽 2個"
+                },
+                {
+                    "label": "紅醬 1個",
+                    "children": [
+                        {
+                            "label": "基本醬料 1個"
+                        },
+                        {
+                            "label": "紅肉 1個"
+                        },
+                        {
+                            "label": "料理用飲用水 2個"
+                        },
+                        {
+                            "label": "砂糖 2個"
+                        }
+                    ]
+                },
+                {
+                    "label": "料理用紅酒 3個"
+                }
+            ]
+        }
+    },
+    {
+        "name": "柚子醃洋蔥",
+        "treeData": {
+            "label": "柚子醃洋蔥",
+            "children": [
+                {
+                    "label": "洋蔥 2個"
+                },
+                {
+                    "label": "柚子醋 2個",
+                    "children": [
+                        {
+                            "label": "柚子 2個"
+                        },
+                        {
+                            "label": "發酵劑 1個"
+                        },
+                        {
+                            "label": "砂糖 1個"
+                        },
+                        {
+                            "label": "料理用飲用水 1個"
+                        }
+                    ]
+                },
+                {
+                    "label": "砂糖 2個"
+                },
+                {
+                    "label": "發酵劑 2個"
+                }
+            ]
+        }
+    },
+    {
+        "name": "雞油菇燉飯",
+        "treeData": {
+            "label": "雞油菇燉飯",
+            "children": [
+                {
+                    "label": "雞油菇 2個"
+                },
+                {
+                    "label": "穀物 5個"
+                },
+                {
+                    "label": "白醬 1個",
+                    "children": [
+                        {
+                            "label": "基本醬料 2個"
+                        },
+                        {
+                            "label": "水果 1個"
+                        },
+                        {
+                            "label": "牛奶 1個"
+                        },
+                        {
+                            "label": "料理用紅酒 2個"
+                        }
+                    ]
+                },
+                {
+                    "label": "奶油 1個(混合)",
+                    "children": [
+                        {
+                            "label": "牛奶 1個"
+                        },
+                        {
+                            "label": "鹽 1個"
+                        }
+                    ]
+                },
+                {
+                    "label": "橄欖油 1個"
                 }
             ]
         }

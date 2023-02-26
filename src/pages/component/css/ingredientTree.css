@@ -5,4 +5,9 @@ ul {
 ul li {
   padding: 0;
   margin: 0;
-}/*# sourceMappingURL=ingredientTree.css.map */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=IngredientTree.css.map */
