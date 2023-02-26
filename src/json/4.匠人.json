@@ -437,7 +437,12 @@
             "label": "起司派",
             "children": [
                 {
-                    "label": "起司 7個"
+                    "label": "起司 7個(曬乾)",
+                    "children": [
+                        {
+                            "label": "牛奶 1個"
+                        }
+                    ]
                 },
                 {
                     "label": "雞蛋 3個"
