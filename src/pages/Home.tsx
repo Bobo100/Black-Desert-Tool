@@ -33,17 +33,17 @@ export const Home = () => {
 
             <TableExcel /> */}
 
-            <h1>見習區</h1>
+            <h1>見習區 13萬</h1>
             <Recipes recipes={見習} />
-            <h1>熟練區</h1>
+            <h1>熟練區 20萬</h1>
             <Recipes recipes={熟練} />
-            <h1>專家區</h1>
+            <h1>專家區 30萬</h1>
             <Recipes recipes={專家} />
-            <h1>匠人區</h1>
+            <h1>匠人區 40萬</h1>
             <Recipes recipes={匠人} />
-            <h1>名匠區</h1>
+            <h1>名匠區 55萬</h1>
             <Recipes recipes={名匠} />
-            <h1>道人區</h1>
+            <h1>道人區 80萬</h1>
             <Recipes recipes={道人} />
 
 
