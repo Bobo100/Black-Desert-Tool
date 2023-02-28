@@ -11,6 +11,8 @@ import { NotFoundPage } from './pages/Error';
 import { useDispatch, useSelector } from 'react-redux';
 import { addImageCache } from './pages/redux/action/imageCacheActions';
 import response from './json/image_path.json';
+import { NavBar } from './pages/component/navbar';
+import { Enhanched } from './pages/Enhanched';
 
 
 function App() {
@@ -27,11 +29,16 @@ function App() {
   return (
     <div className="App">
       <Router basename="/">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFoundPage />}></Route>
-        </Routes>
+        <NavBar />
+        <div className="pages">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path='/enhanched' element={<Enhanched />} />
+            <Route path="*" element={<NotFoundPage />}></Route>
+          </Routes>
+        </div>
       </Router>
+
     </div>
   );
 }
