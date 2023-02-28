@@ -1,0 +1,41 @@
+.table_view {
+    height: 30vh;
+    overflow-y: scroll;
+    // overflow: auto;
+
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    // table-layout: fixed;
+
+    text-align: center;
+}
+
+thead {
+    position: -webkit-sticky;
+    position: sticky;
+
+    // position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #000000;
+}
+
+tbody td:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: #000000;
+  }
+
+
+th,
+td {
+    border: 1px solid rgb(255, 255, 255);
+    // width: 100px; /* 你想要的寬度 */
+}
