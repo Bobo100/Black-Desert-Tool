@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Black-Desert-Tool/static/css/main.c5bb277c.css",
-    "main.js": "/Black-Desert-Tool/static/js/main.f20a2d6e.js",
+    "main.js": "/Black-Desert-Tool/static/js/main.c49ef0ee.js",
     "index.html": "/Black-Desert-Tool/index.html",
     "main.c5bb277c.css.map": "/Black-Desert-Tool/static/css/main.c5bb277c.css.map",
-    "main.f20a2d6e.js.map": "/Black-Desert-Tool/static/js/main.f20a2d6e.js.map"
+    "main.c49ef0ee.js.map": "/Black-Desert-Tool/static/js/main.c49ef0ee.js.map"
   },
   "entrypoints": [
     "static/css/main.c5bb277c.css",
-    "static/js/main.f20a2d6e.js"
+    "static/js/main.c49ef0ee.js"
   ]
 }
