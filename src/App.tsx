@@ -8,7 +8,7 @@ import {
 
 import { Home } from './pages/Home';
 import { NotFoundPage } from './pages/Error';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addImageCache } from './pages/redux/action/imageCacheActions';
 import response from './json/image_path.json';
 import { NavBar } from './pages/component/navbar';
