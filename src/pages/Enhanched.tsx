@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import uuid from 'react-uuid';
-import * as XLSX from 'xlsx';
 import 綠藍金武器及摩諾斯工具 from './../json/（一）綠藍金武器及摩諾斯工具.json';
 import 綠藍金防具 from './../json/（二）綠藍金防具.json';
 import 黑星武器 from './../json/（三）黑星武器.json';
@@ -44,7 +41,9 @@ export const Enhanched = () => {
             <h1>二階藍船裝</h1>
             <EnhanchedTable json_data={二階藍船裝} />
             <h1>三階綠船裝</h1>
-            <EnhanchedTable json_data={三階綠船裝} />            
+            <EnhanchedTable json_data={三階綠船裝} />           
+            <h1>三階藍船裝</h1>
+            <EnhanchedTable json_data={三階藍船裝} />
         </>
     );
 };
