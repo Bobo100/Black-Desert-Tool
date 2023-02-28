@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/">
+      <Router basename="/BlackDesertTool">
         <NavBar />
         <div className="pages">
           <Routes>
