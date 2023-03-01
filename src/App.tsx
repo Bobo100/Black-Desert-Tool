@@ -10,7 +10,7 @@ import { Home } from './pages/Home';
 import { NotFoundPage } from './pages/Error';
 import { useDispatch } from 'react-redux';
 import { addImageCache } from './pages/redux/action/imageCacheActions';
-import response from './json/image_path.json';
+import image_path_json from './json/image_path.json';
 import { NavBar } from './pages/component/navbar';
 import { Enhanched } from './pages/Enhanched';
 
@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     const fetchImageCache = async () => {
-      dispatch(addImageCache(response));
+      dispatch(addImageCache(image_path_json));
     };
 
     fetchImageCache();
