@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import uuid from 'react-uuid';
 import { ImageCache } from '../redux/action/imageCacheActions';
@@ -19,6 +19,8 @@ const TreeNode = ({ label, children, imageCache }: TreeNodeProps) => {
     };
 
     const name = label.split(' ')[0];
+    // const imagePath = imageCache && imageCache[name]; // 获取图像路径
+    // const imgSrc = require(`${imagePath}`); // 获取图像资源
 
     return (
         <>
@@ -27,7 +29,10 @@ const TreeNode = ({ label, children, imageCache }: TreeNodeProps) => {
                 {/* {children && <span>{isOpen ? '🔽' : '▶️'}</span>} */}
                 {/* {!children && <span>🔹</span>} */}
                 <span>{label}</span>
-                {imageCache && imageCache[name] && (<img src={imageCache[name]} alt={label} />)}
+                {imageCache && imageCache[name] && (<img src={process.env.PUBLIC_URL + imageCache[name]} alt={label} />)}
+                {/* {imageCache && imageCache[name] && (<img src={images[name]} alt={label} />)} */}
+
+
             </div>
             {isOpen && children && (
                 <ul>
@@ -52,3 +57,5 @@ const IngredientTree = ({ treeData }: { treeData: TreeNodeProps }) => {
 };
 
 export default IngredientTree;
+
+
