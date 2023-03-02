@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/Black-Desert-Tool/static/css/main.c5bb277c.css",
-    "main.js": "/Black-Desert-Tool/static/js/main.de9de7be.js",
+    "main.css": "/Black-Desert-Tool/static/css/main.49fb5abd.css",
+    "main.js": "/Black-Desert-Tool/static/js/main.55ee433f.js",
+    "static/css/299.dc60cc6b.chunk.css": "/Black-Desert-Tool/static/css/299.dc60cc6b.chunk.css",
+    "static/js/299.c0d022ef.chunk.js": "/Black-Desert-Tool/static/js/299.c0d022ef.chunk.js",
     "index.html": "/Black-Desert-Tool/index.html",
-    "main.c5bb277c.css.map": "/Black-Desert-Tool/static/css/main.c5bb277c.css.map",
-    "main.de9de7be.js.map": "/Black-Desert-Tool/static/js/main.de9de7be.js.map"
+    "main.49fb5abd.css.map": "/Black-Desert-Tool/static/css/main.49fb5abd.css.map",
+    "main.55ee433f.js.map": "/Black-Desert-Tool/static/js/main.55ee433f.js.map",
+    "299.dc60cc6b.chunk.css.map": "/Black-Desert-Tool/static/css/299.dc60cc6b.chunk.css.map",
+    "299.c0d022ef.chunk.js.map": "/Black-Desert-Tool/static/js/299.c0d022ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5bb277c.css",
-    "static/js/main.de9de7be.js"
+    "static/css/main.49fb5abd.css",
+    "static/js/main.55ee433f.js"
   ]
 }
