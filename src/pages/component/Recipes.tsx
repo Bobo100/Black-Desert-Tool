@@ -15,9 +15,11 @@ type RecipesProps = {
     recipes: Recipe[];
 }
 
+
 export const RecipesComponent: FC<RecipesProps> = ({ recipes }) => {
     return (
         <div>
+            
             <div className='recipe_container'>
                 {recipes.map((item) => {
                     return (

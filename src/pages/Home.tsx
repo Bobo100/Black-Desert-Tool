@@ -1,5 +1,5 @@
-// import React, { useState } from 'react';
-// import Search from './component/search';
+import React, { useState } from 'react';
+import Search from './component/search';
 // import Table from './component/table';
 // import TableExcel from './component/table_excel';
 import { Recipes } from './Recipes';
@@ -16,11 +16,11 @@ import { useEffect } from 'react';
 
 
 export const Home = () => {
-    // const [keyword, setKeyword] = useState('');
+    const [keyword, setKeyword] = useState('');
 
-    // const handleSearch = (value: string) => {
-    //     setKeyword(value);
-    // };
+    const handleSearch = (value: string) => {
+        setKeyword(value);
+    };
 
     useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -33,6 +33,7 @@ export const Home = () => {
 
             <TableExcel /> */}
 
+            <Search value={keyword} onChange={handleSearch} />
             <Recipes />
         </div>
     );

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import debounce from 'lodash/debounce';
 
 interface SearchProps {
   value: string;
@@ -6,12 +7,21 @@ interface SearchProps {
 }
 
 const Search: React.FC<SearchProps> = ({ value, onChange }) => {
+  const [searchTerm, setSearchTerm] = useState(value);
+
+  const delayedOnChange = debounce((value: string) => {
+    onChange(value);
+  }, 1000);
+
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    onChange(event.target.value);
+    // onChange(event.target.value);
+    const inputValue = event.target.value;
+    setSearchTerm(inputValue);
+    delayedOnChange(inputValue);
   };
 
   return (
-    <input type="text" value={value} onChange={handleInputChange} />
+    <input type="text" value={searchTerm} onChange={handleInputChange} />
   );
 };
 

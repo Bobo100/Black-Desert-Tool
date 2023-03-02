@@ -8,7 +8,7 @@ import 名匠 from './../json/5.名匠.json';
 import 道人 from './../json/6.道人.json';
 
 
-export const Recipes = () => {
+export const Recipes = () => {  
     return (
         <div>
             <h1>料理</h1>
@@ -28,3 +28,4 @@ export const Recipes = () => {
         </div>
     );
 };
+
