@@ -1,9 +1,10 @@
 .table_view {
     height: 30vh;
+    width: 60%;
     overflow-y: scroll;
     // overflow: auto;
 
-    margin: 20px;
+    margin: 0 auto;
 }
 
 table {
@@ -31,8 +32,7 @@ tbody td:first-child {
     left: 0;
     z-index: 1;
     background-color: #000000;
-  }
-
+}
 
 th,
 td {

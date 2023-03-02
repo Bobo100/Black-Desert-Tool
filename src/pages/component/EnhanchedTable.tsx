@@ -5,7 +5,7 @@ import "./css/enhanchedTable.css"
 interface DataItem {
     [key: string]: any;
 }
-export const EnhanchedTable: FC<DataItem> = ({ json_data }) => {
+const EnhanchedTable: FC<DataItem> = ({ json_data }) => {
 
     const [data, setData] = useState<DataItem[]>([]);
     const [fieldNames, setFieldNames] = useState<string[]>([]);
@@ -14,46 +14,12 @@ export const EnhanchedTable: FC<DataItem> = ({ json_data }) => {
 
     useEffect(() => {
         setData(json_data);
-        // const fieldNames = Object.keys(json_data[0]);
-        // setFieldNames(fieldNames);
 
         const fieldNames = fieldOrder.filter(f => Object.keys(json_data[0]).includes(f));
         const remainingFields = Object.keys(json_data[0]).filter(f => !fieldNames.includes(f));
         setFieldNames([...fieldNames, ...remainingFields]);
 
-        console.log(fieldNames);
-
     }, []);
-
-
-
-    // <div className='table_container'>
-    //     <table className='sticky_header'>
-    //         <thead>
-    //             <tr>
-    //                 {/* 用欄位名稱來渲染表頭 */}
-    //                 {fieldNames.map((name) => (
-    //                     <th key={name}>{name}</th>
-    //                 ))}
-    //             </tr>
-    //         </thead>
-    //     </table>
-
-    //     <div className='table_view'>
-    //         <table>
-    //             <tbody>
-    //                 {data.map((row, index) => (
-    //                     <tr key={uuid()}>
-    //                         {/* 用欄位名稱來取得對應的資料 */}
-    //                         {fieldNames.map((name) => (
-    //                             <td key={name}>{row[name]}</td>
-    //                         ))}
-    //                     </tr>
-    //                 ))}
-    //             </tbody>
-    //         </table>
-    //     </div>
-    // </div>
 
     return (
         <>
@@ -81,48 +47,6 @@ export const EnhanchedTable: FC<DataItem> = ({ json_data }) => {
             </div>
         </>
     );
-
-    // return (
-    //     <table>
-    //         <thead>
-    //             <tr>
-    //                 <th>層數</th>
-    //                 <th>8</th>
-    //                 <th>9</th>
-    //                 <th>10</th>
-    //                 <th>11</th>
-    //                 <th>12</th>
-    //                 <th>13</th>
-    //                 <th>14</th>
-    //                 <th>15</th>
-    //                 <th>長</th>
-    //                 <th>廣</th>
-    //                 <th>故</th>
-    //                 <th>琉</th>
-    //                 <th>東</th>
-    //             </tr>
-    //         </thead>
-    //         <tbody>
-    //             {data.map((item) => (
-    //                 <tr key={uuid()}>
-    //                     <td>{item.層數}</td>
-    //                     <td>{item['8']}</td>
-    //                     <td>{item['9']}</td>
-    //                     <td>{item['10']}</td>
-    //                     <td>{item['11']}</td>
-    //                     <td>{item['12']}</td>
-    //                     <td>{item['13']}</td>
-    //                     <td>{item['14']}</td>
-    //                     <td>{item['15']}</td>
-    //                     <td>{item.長}</td>
-    //                     <td>{item.廣}</td>
-    //                     <td>{item.故}</td>
-    //                     <td>{item.琉}</td>
-    //                     <td>{item.東}</td>
-    //                 </tr>
-    //             ))}
-    //         </tbody>
-    //     </table>
-    // );
 };
 
+export default EnhanchedTable;

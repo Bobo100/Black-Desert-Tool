@@ -3,6 +3,7 @@
 // import Table from './component/table';
 // import TableExcel from './component/table_excel';
 import { Recipes } from './Recipes';
+import { useEffect } from 'react';
 
 
 // const data = [
@@ -20,6 +21,10 @@ export const Home = () => {
     // const handleSearch = (value: string) => {
     //     setKeyword(value);
     // };
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, []);
 
     return (
         <div>

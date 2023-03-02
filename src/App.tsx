@@ -15,6 +15,9 @@ import { NavBar } from './pages/component/navbar';
 import { Enhanched } from './pages/Enhanched';
 
 
+import jsonIndex from './pages/component/jsonIndex';
+
+
 function App() {
   const dispatch = useDispatch();
 
@@ -33,7 +36,7 @@ function App() {
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path='/enhanched' element={<Enhanched />} />
+            <Route path='/enhanched' element={<Enhanched jsonData={jsonIndex} />} />
             <Route path="*" element={<NotFoundPage />}></Route>
           </Routes>
         </div>
