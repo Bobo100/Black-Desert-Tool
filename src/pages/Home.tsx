@@ -26,6 +26,8 @@ export const Home = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }, []);
 
+    console.log(keyword)
+
     return (
         <div>
             {/* <Search value={keyword} onChange={handleSearch} />
@@ -33,8 +35,10 @@ export const Home = () => {
 
             <TableExcel /> */}
 
+            <h1>料理</h1>
+            <label htmlFor="search">關鍵字搜尋</label>
             <Search value={keyword} onChange={handleSearch} />
-            <Recipes />
+            <Recipes keyword={keyword} />
         </div>
     );
 };

@@ -19,8 +19,6 @@ const TreeNode = ({ label, children, imageCache }: TreeNodeProps) => {
     };
 
     const name = label.split(' ')[0];
-    // const imagePath = imageCache && imageCache[name]; // 获取图像路径
-    // const imgSrc = require(`${imagePath}`); // 获取图像资源
 
     return (
         <>
@@ -30,8 +28,6 @@ const TreeNode = ({ label, children, imageCache }: TreeNodeProps) => {
                 {/* {!children && <span>🔹</span>} */}
                 <span>{label}</span>
                 {imageCache && imageCache[name] && (<img src={process.env.PUBLIC_URL + imageCache[name]} alt={label} />)}
-                {/* {imageCache && imageCache[name] && (<img src={images[name]} alt={label} />)} */}
-
 
             </div>
             {isOpen && children && (
@@ -47,11 +43,16 @@ const TreeNode = ({ label, children, imageCache }: TreeNodeProps) => {
     );
 };
 
-const IngredientTree = ({ treeData }: { treeData: TreeNodeProps }) => {
+const IngredientTree = ({ treeData, keyword }: { treeData: TreeNodeProps, keyword: string }) => {
     const imageCache = useSelector((state: ImageCache) => state);
+
+    const nodes = [treeData, ...(treeData.children || [])];
+    const shouldShow = nodes.some((node) => node.label.toLowerCase().includes(keyword.toLowerCase()));
+
     return (
         <div>
-            <TreeNode {...treeData} imageCache={imageCache} />
+            {/* <TreeNode {...treeData} imageCache={imageCache} /> */}
+            {shouldShow && <TreeNode {...treeData} imageCache={imageCache} />}
         </div>
     );
 };

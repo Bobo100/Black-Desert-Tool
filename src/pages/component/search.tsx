@@ -11,7 +11,7 @@ const Search: React.FC<SearchProps> = ({ value, onChange }) => {
 
   const delayedOnChange = debounce((value: string) => {
     onChange(value);
-  }, 1000);
+  }, 1500);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     // onChange(event.target.value);
@@ -21,7 +21,7 @@ const Search: React.FC<SearchProps> = ({ value, onChange }) => {
   };
 
   return (
-    <input type="text" value={searchTerm} onChange={handleInputChange} />
+    <input type="text" value={searchTerm} onChange={handleInputChange} placeholder="請輸入想找的內容"/>
   );
 };
 
